@@ -7,7 +7,7 @@ function Navbar() {
 
   const handleLogout = () => {
     localStorage.removeItem("isLoggedIn");
-    navigate("/login"); // redirect to login
+    navigate("/login");
   };
 
   return (
